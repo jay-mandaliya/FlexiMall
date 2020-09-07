@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "644012464189",
+    "firebase_url": "https://fleximall-72d3f.firebaseio.com",
+    "project_id": "fleximall-72d3f",
+    "storage_bucket": "fleximall-72d3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644012464189:android:717726fa713ce01b",
+        "android_client_info": {
+          "package_name": "com.jack.fleximall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644012464189-jkbi7ci7afs5o20kojud6i86rui3h181.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jack.fleximall",
+            "certificate_hash": "ae9d9856927916ec2cabcac8b909d0f799f3c897"
+          }
+        },
+        {
+          "client_id": "644012464189-9br4le69v6tmalqvuols32h57is4s4fk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCX5rmz7Ord9sb6avr_UQZhyn6axVR9hQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644012464189-9br4le69v6tmalqvuols32h57is4s4fk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

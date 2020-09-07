@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/item_list_layout_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_blank_image" />
+
+    <TextView
+        android:id="@+id/item_list_layout_txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/item_list_layout_image"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/item_list_layout_image"
+        android:layout_below="@id/item_list_layout_txtName"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/item_list_layout_txtQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:text="Qty"/>
+
+        <Spinner
+            android:id="@+id/item_list_layout_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:layout_gravity="center"
+            android:spinnerMode="dropdown"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/item_list_layout_txtName"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_list_layout_txtSymbolRupee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rs_symbol"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/item_list_layout_txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_list_layout_image"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_list_layout_txtRemove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="2dp"
+            android:padding="2dp"
+            android:background="@drawable/remove_text"
+            android:gravity="center"
+            android:text="Remove"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/item_list_layout_txtLater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="2dp"
+            android:padding="2dp"
+            android:background="@drawable/later_text"
+            android:gravity="center"
+            android:text="Save for later"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MainFragment">
+
+    <ListView
+        android:id="@+id/main_frag_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/main_frag_total"
+        android:layout_alignParentTop="true"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/main_frag_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:src="@drawable/ic_add_to_cart"/>
+
+    <LinearLayout
+        android:id="@+id/main_frag_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/main_frag_add">
+
+        <TextView
+            android:id="@+id/main_frag_txtTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Total"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/total_text" />
+
+        <TextView
+            android:id="@+id/main_frag_txtQty"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Qty"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/main_frag_txtQtyValue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="0"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/total_value_text" />
+
+        <TextView
+            android:id="@+id/main_frag_txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Price"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/main_frag_txtPriceValue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="0"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/total_value_text" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.ProfileFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_user" />
+    </FrameLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/profile_frag_edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Name" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+
+        <TextView
+            android:id="@+id/profile_frag_txtEmailTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+
+        <TextView
+            android:id="@+id/profile_frag_txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_frag_txtEmailTag"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/profile_frag_imgEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_frag_txtEmailTag"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_edit" />
+
+
+    </RelativeLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/profile_frag_edtMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="Phone" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/profile_frag_btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Save" />
+
+    <View
+        android:id="@+id/panel_nav_header_grayLine"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="#c0c0c0"/>
+
+    <TextView
+        android:id="@+id/profile_frag_txtReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:drawableStart="@drawable/ic_reset_password"
+        android:drawablePadding="10dp"
+        android:textSize="20dp"
+        android:text="Reset Password"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/profile_frag_txtDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:drawableStart="@drawable/ic_delete"
+        android:drawablePadding="10dp"
+        android:textSize="20dp"
+        android:text="Delete your account"
+        android:textStyle="bold"/>
+
+</LinearLayout>

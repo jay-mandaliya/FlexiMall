@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FlexiMall</string>
+    <string name="profile_table_name">user_info</string>
+    <string name="product_table_name">product_info</string>
+    <string name="column_barcode">_id</string>
+    <string name="column_name">name</string>
+    <string name="column_price">price</string>
+    <string name="column_quantity">qty</string>
+    <string name="rs_symbol">\u20B9</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="spinner_items">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+</resources>
