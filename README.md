@@ -8,17 +8,12 @@ The product aims at satisfying and providing the facilities to the customers, sm
 
 ### User Interface
 ------
-#### *Login Screen*
+
 ![alt text](/images/1.png)
-#### *Create Account*
 ![alt text](/images/2.png)
-#### *Product Cart*
 ![alt text](/images/6.png)
-#### *Navigation Drawer Menu*
 ![alt text](/images/4.png)
-#### *Profile Screen*
 ![alt text](/images/5.png)
-#### *Forget Password Screen*
 ![alt text](/images/3.png)
 
 
