@@ -39,7 +39,7 @@ The product aims at satisfying and providing the facilities to the customers, sm
 *	Minimum 50MB space on HDD
 *	Any Internet Browser
 
-### Conclusion
+### Summary
 ---
 Project FlexiMall is very useful for the regular customers for purchasing items in real-time superstore. As this application is available for mobile devices so most of users can use this application. The main purpose of this project is to reduce the time and the efforts of the customer while shopping. 
 
